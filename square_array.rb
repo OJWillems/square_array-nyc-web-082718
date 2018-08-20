@@ -1,10 +1,4 @@
 def square_array(array)
-  array.collect do |number|
-    number**2
-  end
-end
-
-def square_array(array)
   new_numbers = []
   array.each do |number|
     new_numbers.push(number**2)
